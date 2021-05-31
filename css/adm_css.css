@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+font-family: 'Open Sans', sans-serif;
+}
+body{
+  background-image: url(../img/fondo_admi.jpg);
+}
+h1, h3{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.tabla {
+    
+    table-layout: fixed;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #12326e;
+    color: #fff;
+    
+  }
+.relleno tr:nth-child(odd) {
+    background-color: #535353;
+  }
+  th, td{
+    padding: 20px;
+  }
+  
+  a, input[type = submit]{
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #003955;
+    border-radius: 10px;
+  }

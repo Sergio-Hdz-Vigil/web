@@ -1,0 +1,33 @@
+.tabla {
+    
+    table-layout: fixed;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #12326e;
+    color: #fff;
+    
+  }
+.relleno tr:nth-child(odd) {
+    background-color: #535353;
+  }
+  th, td{
+    padding: 20px;
+  }
+  
+  .solicitar, .cancelar{
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #003955;
+    border-radius: 10px;
+  }
+  .imagen{
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

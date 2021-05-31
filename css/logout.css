@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    font-family:'Itim', cursive;
+}
+body{
+    color: rgb(255, 255, 255);
+    background-image: url(../img/fondo_menu_admi.jpg);
+}
+a, input[type = submit]{
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 10px;
+  }
+  h1, h4{
+      color: #fff;
+      font-size: 30px;
+  }

@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+body{
+	background-image: url(../img/fondo.png);
+	color: rgb(0, 0, 0);
+}
+
+form {
+	padding: 70px 30px;
+	background-color: #ffffff;
+	margin: calc(25% + 100px);
+	margin-top: 110px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(0, 0, 0)
+}
+
+input{
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+input[type='submit']{
+	background-color: rgb(50, 142, 218);
+	color: rgb(255, 255, 255);
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+a{
+    width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+	background-color: rgb(50, 142, 218);
+	color: rgb(255, 255, 255);
+	
+	border: none;
+	text-decoration: none;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+.visualizar{
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
